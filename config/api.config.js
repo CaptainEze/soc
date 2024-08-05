@@ -1,5 +1,5 @@
 const apiVersion = 'v1';
-const appPort = 4982;
+const appPort = 4982 || process.env.port;
 
 
 module.exports = {
